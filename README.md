@@ -1,9 +1,15 @@
 # SymbolicMusicGeneration
 
-dans le fichier FolderSource_firstModel,
+## Détail des fichier présent dans le git 
 
-Ce fichier est le fichier open source trouver sur ce lien :
-Ce fichier est partiellement identique à l'origine, seul changement :
-- utilisation de museScore3 et non lilypond qui est une application aujourd'hui HS.
+- dossier_de_sauvegarde
 
-Ce fichier nous a permis de constituer le fichier FirstModel
+- myBDD_flute & myBDD-trompet
+
+- Symbolic-music-diffusion-main
+
+    **Voir README.md présent dans le dossier**
+
+- SymbolicMusic_LSTM (folder)
+
+    **Voir README.md présent dans le dossier**
