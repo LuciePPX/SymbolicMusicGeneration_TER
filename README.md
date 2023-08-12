@@ -1,5 +1,15 @@
 # SymbolicMusicGeneration
 
-Dans le fichier FirstModel,
+## Détail des fichier présent dans le git 
 
-pré-traitement des données : 
+- dossier_de_sauvegarde
+
+- myBDD_flute & myBDD-trompet
+
+- Symbolic-music-diffusion-main
+
+    **Voir README.md présent dans le dossier**
+
+- SymbolicMusic_LSTM (folder)
+
+    **Voir README.md présent dans le dossier**
