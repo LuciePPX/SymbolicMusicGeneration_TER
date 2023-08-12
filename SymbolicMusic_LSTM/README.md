@@ -48,30 +48,30 @@
 
     Fichier utilisant de **dossier de sauvegarde** pour faire le machine learning sur notre propre base de donnée:
 
-    #téléchargement de la base de donnée
+    >#téléchargement de la base de donnée
 
-    filepath = "../myBDDD_trompet/"
-    #Liste de tous les fichiers midi 
-    all_midis= []
-    for f in os.listdir(filepath):
-        if f.endswith(".mid"):
-            tr = filepath+f
-            midi = converter.parse(tr)
-            all_midis.append(midi)
+    >filepath = "../myBDDD_trompet/"
+    >#Liste de tous les fichiers midi 
+    >all_midis= []
+    >for f in os.listdir(filepath):
+        >if f.endswith(".mid"):
+            >tr = filepath+f
+            >midi = converter.parse(tr)
+            >all_midis.append(midi)>
 
 
         ou 
 
-    #téléchargement de la base de donnée
+    >#téléchargement de la base de donnée
     
-    filepath = "../myBDDD_trompet/"
-        #Liste de tous les fichiers midi 
-        all_midis= []
-        for f in os.listdir(filepath):
-            if f.endswith(".mid"):
-                tr = filepath+f
-                midi = converter.parse(tr)
-                all_midis.append(midi)
+    >filepath = "../myBDDD_trompet/"
+        >#Liste de tous les fichiers midi 
+        >all_midis= []
+        >for f in os.listdir(filepath):
+            >if f.endswith(".mid"):
+                >tr = filepath+f
+                >midi = converter.parse(tr)
+                >all_midis.append(midi)
 
     RESULTAT : ...
 
